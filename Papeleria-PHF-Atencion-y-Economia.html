@@ -494,25 +494,19 @@
             </div>
             <div>
                 <div><i>Comunícate con nosotros a través de:</i></div>
-                <div><i>Correo: <u>papeleria.phf@hotmail.com</u></i></div>
-                <div><i>Cel: 3223474696</i></div>
-                <div class="contact-item">
+                <div>
                     <i class="material-icons">phone</i>
-                    <a href="tel:+573203642874">320 3642874</a>
+                    <a href="tel:+573223474696">Cel: 322 3474696</a>
                 </div>
-                <div class="contact-item">
-                    <i class="material-icons">phone</i>
-                    <a href="tel:+573223474696">322 3474696</a>
-                </div>
-                <div class="contact-item">
+                <div>
                     <i class="material-icons">email</i>
-                    <a href="mailto:papeleria.phf@hotmail.com">papeleria.phf@hotmail.com</a>
+                    <a href="mailto:papeleria.phf@hotmail.com">Correo: papeleria.phf@hotmail.com</a>
                 </div>
-                <div class="contact-item">
-                    <i class="material-icons">location_on</i>
-                    <span>Carrera 4 #3-136, Nariño, Cundinamarca, Colombia</span>
+                <div>
+                    <i>Para buscar en Google haz 
+                        <a href="https://www.google.com/search?q=Papeler%C3%ADa+PHF&gws_rd=ssl" rel="nofollow" target="_blank">clic aquí.</a>
+                    </i>
                 </div>
-                <div><i>Para buscar en Google haz <a href="https://www.google.com/search?q=Papeler%C3%ADa+PHF&gws_rd=ssl" rel="nofollow" target="_blank">clic aquí.</a></i></div>
             </div>
         </section>
 
@@ -560,7 +554,7 @@
                                 <tr><th>mié:</th><td>9:00 a.m. – 1:30 p.m., 4:00 p.m. – 7:00 p.m.</td></tr>
                                 <tr><th>jue:</th><td>9:00 a.m. – 1:30 p.m., 4:00 p.m. – 7:00 p.m.</td></tr>
                                 <tr><th>vie:</th><td>9:00 a.m. – 1:30 p.m., 4:00 p.m. – 7:00 p.m.</td></tr>
-                                <tr><th>sáb:</th><td>9:00 a.m. – 1:30 p.m., 4:00 p.m. – 7:00 p.m.</td></tr>
+                                <tr><th>sáb:</th><td>9:00 a.m. – 2:00 p.m., 4:00 p.m. – 7:00 p.m.</td></tr>
                                 <tr><th>dom:</th><td>Cerrado</td></tr>
                             </tbody>
                         </table>
@@ -652,12 +646,12 @@
 
             // --- Lógica para el estado del horario de atención ---
             const businessHours = {
-                1: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Lunes
-                2: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Martes
-                3: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Miércoles
-                4: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Jueves
-                5: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Viernes
-                6: [{ open: 9, close: 13 }, { open: 15, close: 19 }], // Sábado
+                1: [{ open: 9, close: 13 }, { open: 16, close: 19 }], // Lunes
+                2: [{ open: 9, close: 13 }, { open: 16, close: 19 }], // Martes
+                3: [{ open: 9, close: 13 }, { open: 16, close: 19 }], // Miércoles
+                4: [{ open: 9, close: 13 }, { open: 16, close: 19 }], // Jueves
+                5: [{ open: 9, close: 13 }, { open: 16, close: 19 }], // Viernes
+                6: [{ open: 9, close: 14 }], // Sábado
                 0: [] // Domingo
             };
 
